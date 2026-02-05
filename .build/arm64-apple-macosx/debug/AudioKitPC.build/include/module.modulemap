@@ -1,0 +1,3 @@
+module AudioKitPC {
+    header "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/include/AudioKitPC-Swift.h"
+}

@@ -1,0 +1,695 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.xctest/Contents/MacOS/AudioKitPCPackageTests",
+      "packagePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC",
+      "productName" : "AudioKitPCPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AudioKitPC-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/sources",
+      "importPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioKitPC.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/TrimSilenceLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AudioKitPC",
+      "moduleOutputPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPC.swiftmodule",
+      "objects" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioKitPC.swift.o",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioProcessor.swift.o",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioUtils.swift.o",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/TrimSilenceLevel.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/include/AudioKitPC-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "audiokit_pc"
+      ],
+      "outputFileMapPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioKitPC.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/TrimSilenceLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPC.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioKitPC.swift",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioProcessor.swift",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioUtils.swift",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/TrimSilenceLevel.swift"
+      ],
+      "tempsPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AudioKitPCPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/sources",
+      "importPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPCTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AudioKitPCPackageTests",
+      "moduleOutputPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPCPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/include/AudioKitPCPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "audiokit_pc"
+      ],
+      "outputFileMapPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPCPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AudioKitPCTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/sources",
+      "importPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Tests/AudioKitPCTests/AudioKitPCTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPC.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AudioKitPCTests",
+      "moduleOutputPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPCTests.swiftmodule",
+      "objects" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/AudioKitPCTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "audiokit_pc"
+      ],
+      "outputFileMapPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/AudioKitPCTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules/AudioKitPCTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chen/.openclaw/workspace/AudioKit-PC/Tests/AudioKitPCTests/AudioKitPCTests.swift"
+      ],
+      "tempsPath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AudioKitPC" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AudioKitPC",
+      "-package-name",
+      "audiokit_pc",
+      "-c",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioKitPC.swift",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioProcessor.swift",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioUtils.swift",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/TrimSilenceLevel.swift",
+      "-I",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/include/AudioKitPC-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "audiokit_pc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AudioKitPCPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AudioKitPCPackageTests",
+      "-package-name",
+      "audiokit_pc",
+      "-c",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/include/AudioKitPCPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "audiokit_pc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AudioKitPCTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AudioKitPCTests",
+      "-package-name",
+      "audiokit_pc",
+      "-c",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/Tests/AudioKitPCTests/AudioKitPCTests.swift",
+      "-I",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "audiokit_pc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AudioKitPC" : [
+
+    ],
+    "AudioKitPCPackageTests" : [
+      "AudioKitPCTests",
+      "AudioKitPC"
+    ],
+    "AudioKitPCTests" : [
+      "AudioKitPC"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioKitPC.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/AudioUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Sources/AudioKitPC/TrimSilenceLevel.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/sources"
+    },
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/sources"
+    },
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioKitPC.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/AudioUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPC.build/TrimSilenceLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/AudioKitPCTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chen/.openclaw/workspace/AudioKit-PC/Tests/AudioKitPCTests/AudioKitPCTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/AudioKitPCTests.build/sources"
+    },
+    "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/chen/.openclaw/workspace/AudioKit-PC/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

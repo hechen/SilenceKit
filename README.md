@@ -172,6 +172,21 @@ The audio processing algorithms are extracted and adapted from [Pocket Casts iOS
 - Original audio processing code from [Automattic/pocket-casts-ios](https://github.com/Automattic/pocket-casts-ios)
 - RMS-based silence detection using Apple's Accelerate framework (`vDSP`)
 
-## See Also
+## Example App
 
-- [AudioDemo](https://github.com/hechen/AudioDemo) - Demo iOS app showcasing SilenceKit
+See the `Example/` directory for a complete iOS demo app showcasing all SilenceKit features:
+
+- File picker for audio import
+- Playback controls (play, pause, seek)
+- Trim silence level picker
+- Speed and volume sliders
+- Real-time statistics
+
+To run the example:
+
+```bash
+cd Example
+brew install xcodegen  # if needed
+xcodegen generate
+open AudioDemo.xcodeproj
+```

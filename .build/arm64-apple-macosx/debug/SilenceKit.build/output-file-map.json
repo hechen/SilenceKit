@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/master.swiftdeps"
+  },
+  "/Users/chen/.openclaw/workspace/SilenceKit/Sources/SilenceKit/AudioProcessor.swift": {
+    "dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioProcessor.d",
+    "object": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioProcessor.swift.o",
+    "swiftmodule": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioProcessor.swiftdeps",
+    "diagnostics": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioProcessor.dia"
+  },
+  "/Users/chen/.openclaw/workspace/SilenceKit/Sources/SilenceKit/AudioUtils.swift": {
+    "dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioUtils.d",
+    "object": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioUtils.swift.o",
+    "swiftmodule": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioUtils.swiftdeps",
+    "diagnostics": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/AudioUtils.dia"
+  },
+  "/Users/chen/.openclaw/workspace/SilenceKit/Sources/SilenceKit/SilenceKit.swift": {
+    "dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/SilenceKit.d",
+    "object": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/SilenceKit.swift.o",
+    "swiftmodule": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/SilenceKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/SilenceKit.swiftdeps",
+    "diagnostics": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/SilenceKit.dia"
+  },
+  "/Users/chen/.openclaw/workspace/SilenceKit/Sources/SilenceKit/TrimSilenceLevel.swift": {
+    "dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/TrimSilenceLevel.d",
+    "object": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/TrimSilenceLevel.swift.o",
+    "swiftmodule": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/TrimSilenceLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/TrimSilenceLevel.swiftdeps",
+    "diagnostics": "/Users/chen/.openclaw/workspace/SilenceKit/.build/arm64-apple-macosx/debug/SilenceKit.build/TrimSilenceLevel.dia"
+  }
+}

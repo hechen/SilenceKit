@@ -2,25 +2,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "AudioKitPC",
+    name: "SilenceKit",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
     ],
     products: [
         .library(
-            name: "AudioKitPC",
-            targets: ["AudioKitPC"]
+            name: "SilenceKit",
+            targets: ["SilenceKit"]
         ),
     ],
     targets: [
         .target(
-            name: "AudioKitPC",
+            name: "SilenceKit",
             dependencies: []
         ),
         .testTarget(
-            name: "AudioKitPCTests",
-            dependencies: ["AudioKitPC"]
+            name: "SilenceKitTests",
+            dependencies: ["SilenceKit"]
         ),
     ]
 )
